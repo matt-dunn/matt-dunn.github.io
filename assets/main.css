@@ -78,3 +78,21 @@ header:hover h1:before {
   display: inline;
 }
 
+@media print {
+  body {
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+
+  header {
+    border-bottom: 3px solid #eee;
+  }
+
+  header h1 {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  header h1:before {
+    content: none;
+  }
+}
