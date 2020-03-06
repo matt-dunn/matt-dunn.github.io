@@ -1,0 +1,30 @@
+body {
+  margin: 20px;
+}
+
+header h1 {
+  font-weight: lighter;
+  font-size: 4rem;
+  position: relative;
+  margin: 0 0 2rem 0.8em;
+  padding: 0 0 0 0.5rem;
+}
+
+header h1:before {
+  content: " ";
+  background-image: url(./mjd.png);
+  background-size: cover;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 500px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  width: 0.8em;
+  height: 0.8em;
+  display: inline-block;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: -0.8em;
+}
