@@ -19,4 +19,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"uBxZ":[function(require,module,exports) {
 "use strict";var e=s(require("stickybits")),r=require("luminous-lightbox"),u=require("./headers");function s(e){return e&&e.__esModule?e:{default:e}}var t=(0,u.setupHeaders)();window.addEventListener("resize",function(){t(),t=(0,u.setupHeaders)()}),(0,e.default)("header.main",{useStickyClasses:!0}),new r.LuminousGallery(document.querySelectorAll(".thumbs a"));
 },{"stickybits":"K4zv","luminous-lightbox":"aeP5","./headers":"WHs6"}]},{},["uBxZ"], null)
-//# sourceMappingURL=src.7daa9e91.js.map
+//# sourceMappingURL=src.4506a07d.js.map
